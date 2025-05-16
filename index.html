@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão: Hackear o Tempo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <h1>Máquina do Tempo ⏳</h1>
+        <p class="subtitle">Hackeando o Fluxo do Tempo!</p>
+        
+        <div class="input-group">
+            <label for="timeEvents">Insira as coordenadas (JSON):</label>
+            <textarea id="timeEvents" placeholder='["Guerra1939Mundial", "Moon1969Landing", "Wall1989Fall", "Twin2001Towers"]'></textarea>
+        </div>
+        
+        <div class="button-group">
+            <a href="#" id="visitBtn" class="time-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                VISITAR
+            </a>
+            
+            <a href="#" id="backBtn" class="time-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                VOLTAR
+            </a>
+        </div>
+        <br>
+        <br>
+        <div class="result-container">
+            <h2>Destino Temporal:</h2>
+            <div id="result" class="result">--</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
